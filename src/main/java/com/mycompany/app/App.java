@@ -15,7 +15,10 @@ public class App
     }
 
     private final String getMessage() {
-        return message;
+        String mess = " some text1 ";
+        mess += " some text2 ";
+        mess += message;
+        return mess;
     }
 
 }

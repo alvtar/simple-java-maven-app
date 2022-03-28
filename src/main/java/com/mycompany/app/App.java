@@ -11,9 +11,7 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
-        String mess = getMessage();
-        mess += "add some text";
-        System.out.println(mess);
+        System.out.println(new App().getMessage());
     }
 
     private final String getMessage() {
